@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Contact List";
+}
+
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-start">
+        <a class="btn btn-primary" role="button" asp-controller="Contact" asp-action="CreateContact">Add New Contact</a>
+    </div>
+
+    <br />
+
+    <h1 class="display-4">Contact List</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Kennedy</td>
+                <td>kennedy@gmail.com</td>
+                <td>+1 (999) 9999-999</td>
+                <th scope="col">
+                    <a role="button" class="btn btn-primary">Edit</a>
+                    <a role="button" class="btn btn-danger">Delete</a>
+                </th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>William</td>
+                <td>william@gmail.com</td>
+                <td>+1 (999) 9999-999</td>
+                <th scope="col">
+                    <a role="button" class="btn btn-primary">Edit</a>
+                    <a role="button" class="btn btn-danger">Delete</a>
+                </th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Bruce</td>
+                <td>bruce@gmail.com</td>
+                <td>+1 (999) 9999-999</td>
+                <th scope="col">
+                    <a role="button" class="btn btn-primary">Edit</a>
+                    <a role="button" class="btn btn-danger">Delete</a>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</div>
